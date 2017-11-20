@@ -1,0 +1,11 @@
+from tkinter import *
+def button_clicked():
+    print (u"Hello world!")
+root=Tk()
+root.title("Айба")
+root.config(bg="green")
+button1 = Button()
+button1.pack()
+button2 = Button(root, bg="red", text=u"Touch me !", command=button_clicked)
+button2.pack()
+root.mainloop()
