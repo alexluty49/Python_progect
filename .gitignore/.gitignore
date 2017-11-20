@@ -2,7 +2,7 @@ from tkinter import *
 def button_clicked():
     print (u"Hello world!")
 root=Tk()
-root.title("Айба")
+root.title("World")
 root.config(bg="green")
 button1 = Button()
 button1.pack()
